@@ -31,7 +31,7 @@ namespace IIS_Console_App
                 while (true)
                 {
                     DateTime present = DateTime.Now;
-                    string machineName = System.Environment.MachineName;
+                    //string machineName = System.Environment.MachineName;
                     List<ResourceMessage> results = ResourceChecker.cpuOverUse().ToList();
                     var needingAttention = results.Where(t => t.NeedsAttention);
                 //checks to see if there was an error and if the bool needing attention is set it passes this if statment

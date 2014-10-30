@@ -18,5 +18,8 @@ C:\Users\Derek\Desktop\IIS_Console_App\IIS_Console_App\bin\Debug\Microsoft.Web.A
 \\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\obj\Debug\IIS_Console_App.exe
 \\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\obj\Debug\IIS_Console_App.pdb
 C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\bin\Debug\IIS_Console_App.exe.config
+C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\bin\Debug\IIS_Console_App.exe
+C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\bin\Debug\IIS_Console_App.pdb
+C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\bin\Debug\Microsoft.Web.Administration.dll
 C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\obj\Debug\IIS_Console_App.exe
 C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\obj\Debug\IIS_Console_App.pdb
