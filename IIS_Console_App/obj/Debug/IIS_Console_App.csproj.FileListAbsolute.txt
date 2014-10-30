@@ -1,0 +1,22 @@
+C:\Users\Derek\Desktop\IIS Monitor\Console_IIS_Monitor\IIS_Console_App\IIS_Console_App\bin\Debug\IIS_Console_App.exe.config
+C:\Users\Derek\Desktop\IIS Monitor\Console_IIS_Monitor\IIS_Console_App\IIS_Console_App\bin\Debug\IIS_Console_App.exe
+C:\Users\Derek\Desktop\IIS Monitor\Console_IIS_Monitor\IIS_Console_App\IIS_Console_App\bin\Debug\IIS_Console_App.pdb
+C:\Users\Derek\Desktop\IIS Monitor\Console_IIS_Monitor\IIS_Console_App\IIS_Console_App\obj\Debug\IIS_Console_App.csprojResolveAssemblyReference.cache
+C:\Users\Derek\Desktop\IIS Monitor\Console_IIS_Monitor\IIS_Console_App\IIS_Console_App\obj\Debug\IIS_Console_App.exe
+C:\Users\Derek\Desktop\IIS Monitor\Console_IIS_Monitor\IIS_Console_App\IIS_Console_App\obj\Debug\IIS_Console_App.pdb
+C:\Users\Derek\Desktop\IIS Monitor\Console_IIS_Monitor\IIS_Console_App\IIS_Console_App\bin\Debug\Microsoft.Web.Administration.dll
+C:\Users\Derek\Desktop\IIS_Console_App\IIS_Console_App\bin\Debug\IIS_Console_App.exe.config
+C:\Users\Derek\Desktop\IIS_Console_App\IIS_Console_App\obj\Debug\IIS_Console_App.exe
+C:\Users\Derek\Desktop\IIS_Console_App\IIS_Console_App\obj\Debug\IIS_Console_App.pdb
+C:\Users\Derek\Desktop\IIS_Console_App\IIS_Console_App\bin\Debug\IIS_Console_App.exe
+C:\Users\Derek\Desktop\IIS_Console_App\IIS_Console_App\bin\Debug\IIS_Console_App.pdb
+C:\Users\Derek\Desktop\IIS_Console_App\IIS_Console_App\bin\Debug\Microsoft.Web.Administration.dll
+\\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\bin\Debug\IIS_Console_App.exe.config
+\\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\bin\Debug\IIS_Console_App.exe
+\\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\bin\Debug\IIS_Console_App.pdb
+\\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\bin\Debug\Microsoft.Web.Administration.dll
+\\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\obj\Debug\IIS_Console_App.exe
+\\TS_2\Share\IDI_SoftwareSupport\Utilities\CPUx Detector Source Code\IIS_Console_App\obj\Debug\IIS_Console_App.pdb
+C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\bin\Debug\IIS_Console_App.exe.config
+C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\obj\Debug\IIS_Console_App.exe
+C:\Users\derek\Documents\GitHub\CPU-SPIKE-TOOL\IIS_Console_App\obj\Debug\IIS_Console_App.pdb
