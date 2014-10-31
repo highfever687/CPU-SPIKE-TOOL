@@ -27,25 +27,26 @@ namespace IIS_Console_App
             while (selector != maxMenuItems)
             {
                 Console.Clear();
-                //forces the loop to from running constantly, in this only every minute 
+                //forces the loop to run constantly
                 while (true)
                 {
                     DateTime present = DateTime.Now;
                     //string machineName = System.Environment.MachineName;
                     List<ResourceMessage> results = ResourceChecker.cpuOverUse().ToList();
                     var needingAttention = results.Where(t => t.NeedsAttention);
-                //checks to see if there was an error and if the bool needing attention is set it passes this if statment
+                //checks to see if there was an error and if the bool needing attention is set it passes this to the if statment
                     if (needingAttention.Any())
                     {
-                        //check the performace again notice the thread.sleep and the two next values they are there so that the cpu can 
-                        //get a sample of the cpu at a given moment and then compare that against the next sample. With only one smaple is there is 
-                        //nothing for the program to have compare against and because of this the value will always be 100 percent 
+                        //checks the performace again
+                        //notice the thread.sleep and the two next values they are there so that the cpu can - 
+                        //get a sample reading of the cpu at a given moment and then compare that against the next sample. With only one smaple is there is 
+                        //nothing for the program to compare against and because of this the value will always be 100 percent 
                         var cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");
                         usage = cpuCounter.NextValue();
                         System.Threading.Thread.Sleep(1000);
                         usage = cpuCounter.NextValue();
-                       // if the usage is higher than 95 percent increment the results other wise reset the thresh hold to zero, but if this the second time since the 12 cpu spikes reset the email
-                        //flag, otherwise it never send and email again 
+                       // if the usage is higher than 95 percent increment the results, otherwise reset the thresh hold to zero. If this is the second time since after 12 cpu spikes reset the email
+                        //flag, otherwise it will never send and email again 
                         if (usage >= 95)
                         {
                             if (flagSet == true)
@@ -68,7 +69,7 @@ namespace IIS_Console_App
                         {
                             if (cpuThreshCount >= 0 && usage <= 94 && flagSet2 == true)
                             {       
-                                //if everything goes back to normal send out an email tell the user everthing is ok again
+                                //if everything goes back to normal send out an email and tell the user everthing is ok again
                                     if (usage <= 94)
                                     {
                                         Console.WriteLine("***********Application or Service Is Now Running Within Safe Parameters*************");
@@ -100,7 +101,7 @@ namespace IIS_Console_App
                                 break;
                             }
                         }
-                     //send out an email if the cpu spikes for 12 times within about 1 minute
+                     //send out an email if the cpu spikes for 12 times within 1 minute
                         if (cpuThreshCount == 12 && usage >= 95)
                         {
                             if (flagSet == false)
